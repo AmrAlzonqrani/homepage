@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="sun-moon-toggle">
+  <defs>
+    <mask id="moon-cutout">
+      <rect width="100" height="100" fill="white" />
+      <circle class="cutout-shadow" cx="68" cy="38" r="22" fill="black" />
+    </mask>
+  </defs>
+
+  <style>
+    .moon-circle {
+      fill: #4d4d4d;
+      transition: fill 0.5s ease 0.2s;
+    }
+
+    .cutout-shadow {
+      transform-origin: 68px 38px;
+      transition: transform 0.5s ease-in-out 0.2s;
+    }
+
+    .sun-rays {
+      stroke: #eee;
+      stroke-width: 4.5;
+      stroke-linecap: butt;
+      opacity: 0;
+      transform: scale(0.6);
+      transform-origin: 50px 50px;
+      transition: opacity 0.2s ease 0s, transform 0.2s ease 0s;
+    }
+
+    #sun-moon-toggle:hover .moon-circle {
+      fill: #eee;
+      transition-delay: 0s;
+    }
+
+    #sun-moon-toggle:hover .cutout-shadow {
+      transform: translate(35px, -35px) scale(0);
+      transition-delay: 0s;
+    }
+
+    #sun-moon-toggle:hover .sun-rays {
+      opacity: 1;
+      transform: scale(1);
+      transition: opacity 0.3s ease 0.5s, transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.5s;
+    }
+  </style>
+
+  <circle class="moon-circle" cx="50" cy="50" r="25" mask="url(#moon-cutout)" />
+
+  <g class="sun-rays">
+    <line x1="50" y1="23" x2="50" y2="13" />
+    <line x1="50" y1="23" x2="50" y2="13" transform="rotate(45 50 50)" />
+    <line x1="50" y1="23" x2="50" y2="13" transform="rotate(90 50 50)" />
+    <line x1="50" y1="23" x2="50" y2="13" transform="rotate(135 50 50)" />
+    <line x1="50" y1="23" x2="50" y2="13" transform="rotate(180 50 50)" />
+    <line x1="50" y1="23" x2="50" y2="13" transform="rotate(225 50 50)" />
+    <line x1="50" y1="23" x2="50" y2="13" transform="rotate(270 50 50)" />
+    <line x1="50" y1="23" x2="50" y2="13" transform="rotate(315 50 50)" />
+  </g>
+</svg>

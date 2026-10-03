@@ -1,0 +1,62 @@
+<?xml-stylesheet type="text/css" href="window-view-style.css"?>
+<svg id="window-view" viewBox="0 0 688.94 749.67" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .stars path {
+      transform: scale(0)
+    }
+  </style>
+  <defs>
+    <radialGradient id="sun-gradient" cx="792.34" cy="184.25" r="84.941" gradientTransform="matrix(-1.8137 -.01611 .01665 -1.8741 1953.7 510.73)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff0" />
+      <stop offset="0.75" stop-color="#ff0" />
+      <stop offset="1" stop-color="#f7ffd8" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Static clip path for the window opening -->
+    <clipPath id="window-clip">
+      <rect x="143.64" y="143.71" width="386.49" height="385.76" />
+    </clipPath>
+  </defs>
+
+  <path id="sky" class="sky" d="m143.64 143.71h386.49v385.76h-386.49z" fill="#74ffe2" />
+
+  <g id="stars" class="stars" fill="#ffffff">
+    <path d="m449.64 260.49-5.115-22.562-22.844-5.052 22.844-5.052 5.115-22.562 5.115 22.562 22.844 5.052-22.844 5.052z" />
+    <path d="m231.82 266.69-11.951-3.694-8.48 9.1 3.74-11.803-9.215-8.375 11.951 3.694 8.48-9.101-3.74 11.804z" />
+    <path d="m366.81 269.72-15.337 11.452 3.774 18.546-11.404-15.105-18.736 3.916 15.337-11.452-3.774-18.546 11.404 15.105z" />
+    <path d="m469.84 446.48-34.894 7.507-7.601 34.462-7.601-34.462-34.894-7.507 34.894-7.507 7.6-34.462 7.602 34.462z" />
+    <path d="m376.71 377.09-17.939-.736-8.324 15.711.745-17.717-15.908-8.221 17.939.736 8.324-15.711-.745 17.717z" />
+    <path d="m451.87 313.25-20.95 4.633-4.691 20.691-4.691-20.69-20.95-4.634 20.95-4.633 4.69-20.691 4.692 20.69z" />
+    <path d="m237.82 395.83-18.53-1.57-9.34 15.884 1.59-18.301-16.084-9.225 18.53 1.57 9.34-15.884-1.589 18.301z" />
+    <path d="m263.84 256.19-6.619-29.192-29.557-6.537 29.557-6.537 6.619-29.192 6.619 29.192 29.557 6.537-29.557 6.537z" />
+  </g>
+
+  <!-- Static wrapper group anchors the clip-path -->
+  <g clip-path="url(#window-clip)">
+    <path id="sun" class="sun" d="m366.31 146.2a126.6 126.6 0 0 0-9.273 47.555 126.57 126.57 0 0 0 126.57 126.57 126.6 126.6 0 0 0 43.31-7.643v-166.48z" fill="url(#sun-gradient)" />
+  </g>
+
+  <path id="wall" class="wall" d="m652.83-5.5e-4 -652.83 120.29 36.111 629.38 652.83-120.29zm-512.84 140.06h393.07v393.07h-393.07z" fill="#936639" />
+  <path id="window-frame" class="window-frame" d="m139.99 140.06v393.07h393.07v-393.07zm7.559 7.56h187.39v184.89h-187.39zm193.56 0h184.39v184.89h-184.39zm-193.56 191.06h187.39v186.89h-187.39zm193.56 0h184.39v186.89h-184.39z" fill="#2b231f" />
+
+  <g id="shelf-group">
+    <g class="brackets" fill="#2b231f">
+      <path d="m190.26 558.36v57.71l34.626-57.71z" />
+      <path d="m490.35 558.36v57.71l-34.626-57.71z" />
+    </g>
+    <g class="shelf">
+      <rect x="109.46" y="535.27" width="461.68" height="23.084" rx="4.617" fill="#8b5a3c" />
+      <path class="shadow" d="M109.46 558.36h461.68v6.925H109.46z" fill="#2b231f" opacity="0.25" />
+    </g>
+  </g>
+
+  <g id="plant-group">
+    <g class="leaves">
+      <path class="leaf-primary animated-leaf" d="m165.04 492.87c-20-40-40-60 0-120 40 60 20 80 0 120" fill="#455e4a" />
+      <path class="leaf-secondary animated-leaf" d="m165.04 492.87c-40-20-60-30-50-70 30 20 45 50 50 70" fill="#334637" />
+    </g>
+    <g class="pot">
+      <path d="m121.78 487.17h80l-15 50h-50z" fill="#6b452e" />
+    </g>
+  </g>
+</svg>

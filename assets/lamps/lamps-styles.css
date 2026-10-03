@@ -1,0 +1,19 @@
+svg.dark .filament {
+  fill: #fff;
+  filter: drop-shadow(0 0 3px #ffffff) drop-shadow(0 0 8px #ffeb3b)
+    drop-shadow(0 0 15px #ff9800);
+  transition:
+    fill 0.3s ease,
+    filter 0.3s ease;
+}
+
+.bulb {
+  transition:
+    fill 0.3s ease,
+    filter 0.3s ease;
+}
+
+svg.dark .bulb {
+  fill: #fff59d;
+  filter: drop-shadow(0 0 12px rgba(255, 235, 59, 0.7));
+}

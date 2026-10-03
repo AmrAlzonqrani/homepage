@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="svg1" viewBox="0 0 210 297">
+  <style id="style1">
+    @keyframes swing-right{0%{transform:rotate(0deg);animation-timing-function:cubic-bezier(.2,.8,.4,1)}25%{transform:rotate(-22deg);animation-timing-function:cubic-bezier(.6,0,.8,.5)}50%,to{transform:rotate(0deg)}}@keyframes swing-left{0%,50%{transform:rotate(0deg);animation-timing-function:cubic-bezier(.2,.8,.4,1)}75%{transform:rotate(22deg);animation-timing-function:cubic-bezier(.6,0,.8,.5)}to{transform:rotate(0deg)}}#first,#last{transform-origin:top;transform-box:fill-box;will-change:transform}#first{animation:swing-left 3s infinite cubic-bezier(.6,0,.8,.5)}#last{animation:swing-right 3s infinite cubic-bezier(.1,.8,.4,1)}@media (prefers-reduced-motion:reduce){#first,#last{animation:none!important}}
+  </style>
+  <path id="path86" fill="#dea479" stroke-width="1.721" d="M161.69 281.97 1.1 199.164l47.209-170.14 160.59 82.806z" style="paint-order:fill markers stroke"/>
+  <g id="g88" transform="translate(-32.102 -3.645)scale(1.38)">
+    <g id="first">
+      <path id="path9" fill="#4d4d4d" d="M80.411 90.858v53.518a5.245 49.74 0 0 1 .295-.08 5.245 49.74 0 0 1 .296.08V90.858z" style="paint-order:fill markers stroke"/>
+      <g id="g96">
+        <ellipse id="path1" cx="80.707" cy="148.35" fill="gray" rx="4.049" ry="4.053" style="paint-order:stroke markers fill"/>
+        <path id="path1-1" fill="#fff" stroke-width=".041" d="M82.687 145.17c.226.423.079.98-.317 1.206-.396.227-1.273.164-1.499-.259s-.088-.95.308-1.176c.396-.228 1.282-.194 1.508.229" style="paint-order:stroke markers fill"/>
+        <path id="path1-6" fill="#333" d="M76.747 147.5a4.049 4.053 0 0 0 .031 1.825 4.049 4.053 0 0 0 4.908 2.953 4.049 4.053 0 0 0 2.63-2.096 5.613 5.618 0 0 1-2.873.562 5.613 5.618 0 0 1-4.696-3.244" style="paint-order:stroke markers fill"/>
+        <path id="path3" fill="#4d4d4d" d="M81.45 150.78a5.6 5.6 0 0 0 2.865-.598c.428-.87.568-1.849.327-2.787-.408 1.347-1.523 2.373-2.883 2.73-1.05.277-2.231.084-2.265.118-.057-.026.89.475 1.956.537" style="paint-order:stroke markers fill"/>
+      </g>
+    </g>
+    <g id="g90">
+      <path id="path9-9" fill="#4d4d4d" d="M88.509 90.858v53.518a5.245 49.74 0 0 1 .295-.08 5.245 49.74 0 0 1 .296.08V90.858z" style="paint-order:fill markers stroke"/>
+      <g id="g97">
+        <ellipse id="path1-0" cx="88.804" cy="148.35" fill="gray" rx="4.049" ry="4.053" style="paint-order:stroke markers fill"/>
+        <path id="path1-1-4" fill="#fff" stroke-width=".041" d="M90.785 145.17c.226.423.079.98-.317 1.206-.396.227-1.273.164-1.499-.259s-.088-.95.308-1.176c.396-.228 1.282-.194 1.508.229" style="paint-order:stroke markers fill"/>
+        <path id="path1-6-8" fill="#333" d="M84.844 147.5a4.049 4.053 0 0 0 .031 1.825 4.049 4.053 0 0 0 4.908 2.953 4.049 4.053 0 0 0 2.63-2.096 5.613 5.618 0 0 1-2.873.562 5.613 5.618 0 0 1-4.696-3.244" style="paint-order:stroke markers fill"/>
+        <path id="path3-7" fill="#4d4d4d" d="M89.548 150.78a5.6 5.6 0 0 0 2.865-.598c.428-.87.568-1.849.327-2.787-.408 1.347-1.523 2.373-2.883 2.73-1.05.277-2.231.084-2.265.118-.057-.026.89.475 1.956.537" style="paint-order:stroke markers fill"/>
+      </g>
+    </g>
+    <g id="g91">
+      <path id="path9-2" fill="#4d4d4d" d="M96.607 90.858v53.518a5.245 49.74 0 0 1 .295-.08 5.245 49.74 0 0 1 .296.08V90.858z" style="paint-order:fill markers stroke"/>
+      <g id="g98">
+        <ellipse id="path1-10" cx="96.902" cy="148.35" fill="gray" rx="4.049" ry="4.053" style="paint-order:stroke markers fill"/>
+        <path id="path1-1-6" fill="#fff" stroke-width=".041" d="M98.883 145.17c.226.423.079.98-.317 1.206-.396.227-1.273.164-1.499-.259s-.088-.95.308-1.176 1.282-.194 1.508.229" style="paint-order:stroke markers fill"/>
+        <path id="path1-6-1" fill="#333" d="M92.942 147.5a4.049 4.053 0 0 0 .031 1.825 4.049 4.053 0 0 0 4.908 2.953 4.049 4.053 0 0 0 2.63-2.096 5.613 5.618 0 0 1-2.873.562 5.613 5.618 0 0 1-4.696-3.244" style="paint-order:stroke markers fill"/>
+        <path id="path3-5" fill="#4d4d4d" d="M97.646 150.78a5.6 5.6 0 0 0 2.865-.598c.428-.87.568-1.849.327-2.787-.408 1.347-1.523 2.373-2.883 2.73-1.05.277-2.231.084-2.265.118-.057-.026.89.475 1.956.537" style="paint-order:stroke markers fill"/>
+      </g>
+    </g>
+    <g id="g92">
+      <path id="path9-1" fill="#4d4d4d" d="M104.7 90.858v53.518a5.245 49.74 0 0 1 .295-.08 5.245 49.74 0 0 1 .296.08V90.858z" style="paint-order:fill markers stroke"/>
+      <g id="g99">
+        <ellipse id="path1-7" cx="105" cy="148.35" fill="gray" rx="4.049" ry="4.053" style="paint-order:stroke markers fill"/>
+        <path id="path1-1-1" fill="#fff" stroke-width=".041" d="M106.98 145.17c.226.423.079.98-.317 1.206-.396.227-1.273.164-1.499-.259s-.088-.95.308-1.176c.396-.228 1.282-.194 1.508.229" style="paint-order:stroke markers fill"/>
+        <path id="path1-6-15" fill="#333" d="M101.04 147.5a4.049 4.053 0 0 0 .031 1.825 4.049 4.053 0 0 0 4.908 2.953 4.049 4.053 0 0 0 2.63-2.096 5.613 5.618 0 0 1-2.873.562 5.613 5.618 0 0 1-4.696-3.244" style="paint-order:stroke markers fill"/>
+        <path id="path3-9" fill="#4d4d4d" d="M105.74 150.78a5.6 5.6 0 0 0 2.865-.598c.428-.87.568-1.849.327-2.787-.408 1.347-1.523 2.373-2.883 2.73-1.05.277-2.231.084-2.265.118-.057-.026.89.475 1.956.537" style="paint-order:stroke markers fill"/>
+      </g>
+    </g>
+    <g id="g93">
+      <path id="path9-6" fill="#4d4d4d" d="M112.8 90.858v53.518a5.245 49.74 0 0 1 .295-.08 5.245 49.74 0 0 1 .296.08V90.858z" style="paint-order:fill markers stroke"/>
+      <g id="g100">
+        <ellipse id="path1-3" cx="113.1" cy="148.35" fill="gray" rx="4.049" ry="4.053" style="paint-order:stroke markers fill"/>
+        <path id="path1-1-9" fill="#fff" stroke-width=".041" d="M115.08 145.17c.226.423.079.98-.317 1.206-.396.227-1.273.164-1.499-.259s-.088-.95.308-1.176c.396-.228 1.282-.194 1.508.229" style="paint-order:stroke markers fill"/>
+        <path id="path1-6-4" fill="#333" d="M109.14 147.5a4.049 4.053 0 0 0 .031 1.825 4.049 4.053 0 0 0 4.908 2.953 4.049 4.053 0 0 0 2.63-2.096 5.613 5.618 0 0 1-2.873.562 5.613 5.618 0 0 1-4.696-3.244" style="paint-order:stroke markers fill"/>
+        <path id="path3-8" fill="#4d4d4d" d="M113.84 150.78a5.6 5.6 0 0 0 2.865-.598c.428-.87.568-1.849.327-2.787-.408 1.347-1.523 2.373-2.883 2.73-1.05.277-2.231.084-2.265.118-.057-.026.89.475 1.956.537" style="paint-order:stroke markers fill"/>
+      </g>
+    </g>
+    <g id="g94">
+      <path id="path9-8" fill="#4d4d4d" d="M120.9 90.858v53.523a5.245 49.744 0 0 1 .295-.08 5.245 49.744 0 0 1 .296.08V90.858z" style="paint-order:fill markers stroke"/>
+      <g id="g101">
+        <ellipse id="path1-5" cx="121.2" cy="148.35" fill="gray" rx="4.049" ry="4.053" style="paint-order:stroke markers fill"/>
+        <path id="path1-1-0" fill="#fff" stroke-width=".041" d="M123.18 145.17c.226.423.079.98-.317 1.206-.396.227-1.273.164-1.499-.259s-.088-.95.308-1.176c.396-.228 1.282-.194 1.508.229" style="paint-order:stroke markers fill"/>
+        <path id="path1-6-9" fill="#333" d="M117.24 147.51a4.049 4.053 0 0 0 .031 1.825 4.049 4.053 0 0 0 4.908 2.953 4.049 4.053 0 0 0 2.63-2.096 5.613 5.618 0 0 1-2.873.562 5.613 5.618 0 0 1-4.696-3.244" style="paint-order:stroke markers fill"/>
+        <path id="path3-6" fill="#4d4d4d" d="M121.94 150.79a5.6 5.6 0 0 0 2.865-.598c.428-.87.568-1.849.327-2.787-.408 1.347-1.523 2.373-2.883 2.73-1.05.277-2.231.084-2.265.118-.057-.026.89.475 1.956.537" style="paint-order:stroke markers fill"/>
+      </g>
+    </g>
+    <g id="last">
+      <path id="path9-15" fill="#4d4d4d" d="M129 90.858v53.528a5.253 49.749 0 0 1 .296-.08 5.253 49.749 0 0 1 .296.08V90.858z" style="paint-order:fill markers stroke"/>
+      <g id="g102">
+        <ellipse id="path1-8" cx="129.29" cy="148.36" fill="gray" rx="4.049" ry="4.053" style="paint-order:stroke markers fill"/>
+        <path id="path1-1-48" fill="#fff" stroke-width=".041" d="M131.27 145.18c.226.423.079.98-.317 1.206-.396.227-1.273.164-1.499-.259s-.088-.95.308-1.176c.396-.228 1.282-.194 1.508.229" style="paint-order:stroke markers fill"/>
+        <path id="path1-6-10" fill="#333" d="M125.33 147.51a4.049 4.053 0 0 0 .031 1.825 4.049 4.053 0 0 0 4.908 2.953 4.049 4.053 0 0 0 2.63-2.096 5.613 5.618 0 0 1-2.873.562 5.613 5.618 0 0 1-4.696-3.244" style="paint-order:stroke markers fill"/>
+        <path id="path3-3" fill="#4d4d4d" d="M130.04 150.79a5.6 5.6 0 0 0 2.865-.598c.428-.87.568-1.849.327-2.787-.408 1.347-1.523 2.373-2.883 2.73-1.05.277-2.231.084-2.265.118-.057-.026.89.475 1.956.537" style="paint-order:stroke markers fill"/>
+      </g>
+    </g>
+  </g>
+  <g id="g86" stroke-width=".817" transform="translate(7.808 -61.069)">
+    <path id="path85" fill="#2b231f" d="M23.283 182.81h163.43v2.452H23.283z" opacity=".25"/>
+    <rect id="rect85" width="163.43" height="8.172" x="23.283" y="174.64" fill="#8b5a3c" rx="1.634"/>
+  </g>
+</svg>

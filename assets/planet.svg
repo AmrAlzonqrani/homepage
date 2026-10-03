@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="svg1" viewBox="0 0 210 297">
+  <defs id="defs1">
+    <clipPath id="planet-sphere-clip">
+      <circle id="circle1" cx="150" cy="90" r="45"/>
+    </clipPath>
+  </defs>
+
+  <style id="style1">
+    /* GPU-accelerated continuous surface translation */
+    .planet-surface {
+      will-change: transform;
+      animation: spin-surface 4s linear infinite;
+    }
+
+    @keyframes spin-surface {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(-100px, 0, 0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .planet-surface {
+        animation: none !important;
+      }
+    }
+  </style>
+
+  <path id="path1" fill="#fea" d="M170.74 0 98.577 63.881l-68.601 60.59-29.974-9.6 20.223 93.38L39.339 297l72.137-63.912 68.519-60.568 30.006 9.624-20.184-93.388z" style="paint-order:stroke markers fill"/>
+
+  <g id="svg_planet_shelf" transform="translate(3.867 78.829)scale(.62935)">
+    <g id="shelf-board">
+      <rect id="rect2" width="200" height="10" x="50" y="150" fill="#8b5a3c" rx="2"/>
+      <path id="rect3" fill="#2b231f" d="M50 160h200v3H50z" opacity=".25"/>
+    </g>
+
+    <g id="planet-stand">
+      <path id="path3" fill="#2b231f" d="M132 150c0-7 36-7 36 0z"/>
+      <path id="rect4" fill="#2b231f" d="M147 132h6v15h-6z"/>
+      <path id="path4" fill="none" stroke="#2b231f" stroke-linecap="round" stroke-width="5" d="M150 38a56 56 0 0 0 0 104"/>
+    </g>
+
+    <!-- Planetary tilt locked via transform attribute anchored to center (150, 90) -->
+    <g id="planet-globe" transform="rotate(-18 150 90)">
+      <path id="path5" fill="none" stroke="#f8f6f0" stroke-width="8" d="M78 90a72 18 0 0 1 144 0" opacity=".35"/>
+      <circle id="circle5" cx="150" cy="90" r="45" fill="#758a99"/>
+
+      <g id="g8" clip-path="url(#planet-sphere-clip)">
+        <g id="g7" class="planet-surface">
+          <path id="path6" fill="#d49b6a" d="M-100 65q25 5 50 0t50 0 50 0 50 0 50 0 50 0 50 0 50 0v13q-25-5-50 0t-50 0-50 0-50 0-50 0-50 0-50 0-50 0z"/>
+          <path id="path7" fill="#455e4a" d="M-100 92q25-5 50 0t50 0 50 0 50 0 50 0 50 0 50 0 50 0v13q-25 5-50 0t-50 0-50 0-50 0-50 0-50 0-50 0-50 0z"/>
+        </g>
+        <path id="path8" fill="#2b231f" d="M105 45a63.64 63.64 0 0 0 90 90 63.64 63.64 0 0 1-90-90" opacity=".22"/>
+      </g>
+
+      <path id="path9" fill="none" stroke="#f8f6f0" stroke-linecap="round" stroke-width="8" d="M78 90a72 18 0 0 0 144 0" opacity=".9"/>
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="preload"
+            href="./assets/fonts/Cairo-variable.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link rel="stylesheet" href="./styles/main.css" />
+        <script src="./scripts/script.js" defer></script>
+        <link
+            rel="shortcut icon"
+            href="./assets/homepage-fav.svg"
+            type="image/x-icon"
+        />
+        <title>Homepage</title>
+    </head>
+    <body>
+        <nav>
+            <button
+                aria-pressed="false"
+                id="theme-toggle"
+                type="button"
+                aria-label="dark theme toggle"
+            >
+                <svg
+                    width="40px"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 100 100"
+                    id="sun-moon-toggle"
+                >
+                    <defs>
+                        <mask id="moon-cutout">
+                            <rect width="100" height="100" fill="white" />
+                            <circle
+                                class="cutout-shadow"
+                                cx="68"
+                                cy="38"
+                                r="22"
+                                fill="black"
+                            />
+                        </mask>
+                    </defs>
+                    <circle
+                        class="moon-circle"
+                        fill="#4d4d4d"
+                        cx="50"
+                        cy="50"
+                        r="25"
+                        mask="url(#moon-cutout)"
+                    />
+
+                    <g class="sun-rays">
+                        <line x1="50" y1="23" x2="50" y2="13" />
+                        <line
+                            x1="50"
+                            y1="23"
+                            x2="50"
+                            y2="13"
+                            transform="rotate(45 50 50)"
+                        />
+                        <line
+                            x1="50"
+                            y1="23"
+                            x2="50"
+                            y2="13"
+                            transform="rotate(90 50 50)"
+                        />
+                        <line
+                            x1="50"
+                            y1="23"
+                            x2="50"
+                            y2="13"
+                            transform="rotate(135 50 50)"
+                        />
+                        <line
+                            x1="50"
+                            y1="23"
+                            x2="50"
+                            y2="13"
+                            transform="rotate(180 50 50)"
+                        />
+                        <line
+                            x1="50"
+                            y1="23"
+                            x2="50"
+                            y2="13"
+                            transform="rotate(225 50 50)"
+                        />
+                        <line
+                            x1="50"
+                            y1="23"
+                            x2="50"
+                            y2="13"
+                            transform="rotate(270 50 50)"
+                        />
+                        <line
+                            x1="50"
+                            y1="23"
+                            x2="50"
+                            y2="13"
+                            transform="rotate(315 50 50)"
+                        />
+                    </g>
+                </svg>
+            </button>
+        </nav>
+        <main>
+            <div class="page-background" aria-hidden="true">
+                <div class="layer-base layer">
+                    <div class="bg-object-wrapper">
+                        <object
+                            id="window-view"
+                            data="assets/window-view/window-view.svg"
+                            type="image/svg+xml"
+                            tabindex="-1"
+                        ></object>
+                    </div>
+                    <div class="bg-object-wrapper">
+                        <object
+                            data="./assets/pendulum.svg"
+                            type="image/svg+xml"
+                            tabindex="-1"
+                        ></object>
+                    </div>
+                    <div class="bg-object-wrapper">
+                        <object
+                            data="./assets/planet.svg"
+                            type="image/svg+xml"
+                            tabindex="-1"
+                        ></object>
+                    </div>
+                </div>
+            </div>
+            <section class="hero" aria-labelledby="about-me-heading">
+                <div class="portrait-image">
+                    <div class="portrait-object-wrapper" aria-hidden="true">
+                        <object
+                            id="lamps"
+                            tabindex="-1"
+                            data="./assets/lamps/lamps.svg"
+                            type="image/svg+xml"
+                        ></object>
+                    </div>
+                    <picture>
+                        <source
+                            media="(min-width: 530px)"
+                            sizes="(min-width: 1300px) 482px, (max-width: 800px) 250px, calc(40vw - 40px)"
+                            srcset="
+                                ./assets/portrait/portrait_cropped_w_300.webp 300w,
+                                ./assets/portrait/portrait_cropped_w_708.webp 708w,
+                                ./assets/portrait/portrait_cropped_w_863.webp 863w
+                            "
+                        />
+                        <img
+                            sizes="calc(100vw - 64px)"
+                            srcset="
+                                ./assets/portrait/portrait_w_280.webp 280w,
+                                ./assets/portrait/portrait_w_476.webp 476w,
+                                ./assets/portrait/portrait_w_653.webp 653w,
+                                ./assets/portrait/portrait_w_864.webp 864w
+                            "
+                            src="./assets/portrait/portrait_w_476.webp"
+                            alt="an abstract art of a standing person"
+                        />
+                    </picture>
+                    <h1 class="name">Amr Alzonqrani</h1>
+                </div>
+                <div class="about-me">
+                    <span class="float-span"></span>
+                    <h2 class="heading" id="about-me-heading">About me</h2>
+                    <p>
+                        A web developer with interest in crafting beautiful,
+                        performant, and well-architected websites. I enjoy
+                        combining web technologies to create distinctive web
+                        applications and unique digital experience that feels
+                        accessible, responsive, and engaging. I aim for
+                        conformance to the latest guidelines and industry best
+                        practices.
+                    </p>
+                    <ul class="social-list" aria-label="social links">
+                        <li>
+                            <a
+                                href="https://github.com/AmrAlzonqrani"
+                                aria-label="github"
+                            >
+                                <svg aria-hidden="true">
+                                    <use
+                                        href="./assets/icons/github-icon.svg#github"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Linkedin">
+                                <svg aria-hidden="true">
+                                    <use
+                                        href="./assets/icons/in-icon.svg#in"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="X">
+                                <svg aria-hidden="true">
+                                    <use
+                                        href="./assets/icons/x-icon.svg#x"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="works" aria-labelledby="my-works-heading">
+                <h2 id="my-works-heading">My works</h2>
+                <div class="works-grid">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3 class="project-name">Project name</h3>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="#" aria-label="github page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/github-icon.svg#github"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="project page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/open-new-icon.svg#open-new"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="project-brief">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Illo eligendi porro facilis
+                                sequi explicabo illum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3 class="project-name">Project name</h3>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="#" aria-label="github page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/github-icon.svg#github"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="project page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/open-new-icon.svg#open-new"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="project-brief">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Illo eligendi porro facilis
+                                sequi explicabo illum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3 class="project-name">Project name</h3>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="#" aria-label="github page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/github-icon.svg#github"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="project page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/open-new-icon.svg#open-new"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="project-brief">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Illo eligendi porro facilis
+                                sequi explicabo illum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3 class="project-name">Project name</h3>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="#" aria-label="github page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/github-icon.svg#github"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="project page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/open-new-icon.svg#open-new"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="project-brief">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Illo eligendi porro facilis
+                                sequi explicabo illum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3 class="project-name">Project name</h3>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="#" aria-label="github page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/github-icon.svg#github"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="project page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/open-new-icon.svg#open-new"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="project-brief">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Illo eligendi porro facilis
+                                sequi explicabo illum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3 class="project-name">Project name</h3>
+                            <ul class="project-links">
+                                <li>
+                                    <a href="#" aria-label="github page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/github-icon.svg#github"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="project page">
+                                        <svg aria-hidden="true">
+                                            <use
+                                                href="./assets/icons/open-new-icon.svg#open-new"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="project-brief">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Illo eligendi porro facilis
+                                sequi explicabo illum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="contact-info">
+                <h2>Contact me</h2>
+                <p>
+                    please get in touch if you think our work could be mutually
+                    beneficial!
+                </p>
+                <ul class="social-list" aria-label="social links">
+                    <li>
+                        <a
+                            href="https://github.com/AmrAlzonqrani"
+                            aria-label="github"
+                        >
+                            <svg aria-hidden="true">
+                                <use
+                                    href="./assets/icons/github-icon.svg#github"
+                                ></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Linkedin">
+                            <svg aria-hidden="true">
+                                <use href="./assets/icons/in-icon.svg#in"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="X">
+                            <svg aria-hidden="true">
+                                <use href="./assets/icons/x-icon.svg#x"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="landscape-image">
+                <picture>
+                    <source
+                        media="(max-width: 767px)"
+                        sizes="(max-width: 420px) 100vw ,(max-width: 768px) calc(100vw - 64px), 768px"
+                        srcset="
+                            ./assets/landscape/landscape_1_1_w_280.webp 280w,
+                            ./assets/landscape/landscape_1_1_w_527.webp 527w,
+                            ./assets/landscape/landscape_1_1_w_730.webp 730w,
+                            ./assets/landscape/landscape_1_1_w_768.webp 768w
+                        "
+                    />
+                    <img
+                        sizes="(max-width: 2275px) 60vw, 1365px"
+                        srcset="
+                            ./assets/landscape/landscape_4_3_w_538.webp   538w,
+                            ./assets/landscape/landscape_4_3_w_770.webp   770w,
+                            ./assets/landscape/landscape_4_3_w_993.webp   993w,
+                            ./assets/landscape/landscape_4_3_w_1023.webp 1023w
+                        "
+                        src="./assets/landscape/landscape_4_3_w_1023.webp"
+                        alt="abstract art of a person sitting on a desk"
+                    />
+                </picture>
+            </div>
+        </footer>
+    </body>
+</html>
